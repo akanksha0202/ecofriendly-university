@@ -95,13 +95,14 @@ nav img {
     transition: 1s;
 }
 
-nav .fa {
+/* hide fas icons */
+nav .fas {
     display: none;
 }
-
+/* media query */
 @media(max-width: 700px) {
     .text-box h1 {
-        font2-size: 20px;
+        font-size: 20px;
     }
 
     .nav-links ul li {
@@ -120,7 +121,7 @@ nav .fa {
         transition: 1s;
     }
 
-    .nav fas {
+    nav .fas {
         display: block;
         color: #fff;
         margin: 10px;
