@@ -422,5 +422,18 @@ h3{
     color: #fff;
 }
 
+/* contact us page  */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+
+.location iframe{
+    width: 100%;
+}
+
 
 
